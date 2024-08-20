@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+body {
+  /* display: inline-flexbox; */
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(60deg, #f9ddda, #f9ddda, #d3b1b1, #f8e8e8);
+
+  /* background: url(bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center; */
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #8c646c;
+  color: #f9e1dd;
+  padding: 20px 0;
+}
+
+header nav a {
+  color: white;
+  margin-right: 30px;
+  font-weight: 500;
+}
+header .sign_in_up a input {
+  background-color: #f9e1dd;
+  /* transition: 0.5s; */
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 15px;
+  /* border: 2px solid #000; */
+  border-radius: 8px;
+  color: #996e75;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+header .sign_in_up a {
+  margin: 0;
+  padding: 0;
+  display: inline;
+
+  text-decoration: none;
+}
+
+.wrapper {
+  height: 550px;
+  margin-top: 2%;
+  width: 410px;
+  background: transparent;
+  /* border: 2px solid rgba(255, 255, 255, 0.2); */
+  /* backdrop-filter: blur(9px); */
+  color: #996e75;
+  border-radius: 12px;
+  padding: 30px 40px;
+}
+.wrapper h1 {
+  font-size: 36px;
+  text-align: center;
+}
+.wrapper .input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+
+  margin: 30px 0;
+}
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgb(153, 110, 117);
+  border-radius: 30px;
+  font-size: 16px;
+  color: #463e4b;
+  padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+  color: #996e75;
+}
+.input-box i {
+  position: absolute;
+  right: 20px;
+  top: 30%;
+  transform: translate(-50%);
+  font-size: 20px;
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 30px 30px;
+}
+.text_container {
+  /* background-color: aquamarine; */
+  height: 500px;
+  width: 550px;
+  padding: 20px 20px;
+  text-align: center;
+}
+.text_container h1,
+p {
+  margin-top: 60px;
+  color: #996e75;
+}
+p {
+  font-weight: 450;
+}
+
+/* .wrapper .remember-forgot {
+ 
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin: -15px 0 15px;
+} */
+/* .remember-forgot label input {
+  accent-color: #fff;
+  margin-right: 3px;
+} */
+/* .remember-forgot a {
+  color: #fff;
+  text-decoration: none;
+} */
+/* .remember-forgot a:hover {
+  text-decoration: underline;
+} */
+.wrapper .btn {
+  width: 100%;
+  height: 45px;
+  background: #f8e8e8;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #996e75;
+  font-weight: 600;
+}
+.wrapper .register-link {
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
+}
+.register-link p a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+.register-link p a:hover {
+  text-decoration: underline;
+}
+.wrapper {
+  background-image: url(./bae5cad171375da828f0634e580d31fd.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* LOGIN CSS */
+/* .wrapper_login {
+  height: 550px;
+  background-image: url(./bae5cad171375da828f0634e580d31fd.jpg);
+  background-size: cover;
+  background-position: center;
+} */
+.wrapper_login {
+  background-image: url(./bae5cad171375da828f0634e580d31fd.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+  margin-top: 2%;
+  width: 410px;
+  height: 450px;
+  /* background: transparent; */
+  color: #996e75;
+  border-radius: 12px;
+  padding: 30px 40px;
+}
+.wrapper_login h1 {
+  font-size: 36px;
+  text-align: center;
+}
+.wrapper_login .input-box {
+  position: relative;
+  width: 100%;
+  height: 50px;
+
+  margin: 30px 0;
+}
+.wrapper_login .register-link {
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
+}
+
+.wrapper_login .btn {
+  width: 100%;
+  height: 45px;
+  background: #f8e8e8;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #996e75;
+  font-weight: 600;
+}
+
+/* LOGIN CSS END */
