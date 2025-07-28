@@ -109,7 +109,7 @@ if (isset($_POST['btn'])) {
             required
             id="password"
             name="password" />
-          <i class="fa fa-eye" id="eye"></i>
+          <i class="fa fa-eye-slash" id="eye"></i>
         </div>
         <div class="input-box">
           <input
@@ -118,7 +118,7 @@ if (isset($_POST['btn'])) {
             placeholder="Confirm Password"
             required
             name="cpassword" />
-          <i class="fa fa-eye" id="Eye"></i>
+          <i class="fa fa-eye-slash" id="Eye"></i>
 
           <!-- <i class="fa-solid fa-eye-slash"></i> -->
         </div>

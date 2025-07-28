@@ -80,7 +80,7 @@ if (isset($_POST['btn'])) {
             placeholder="Password"
             required
             name="password" />
-          <i class="fa fa-eye" id="eye"></i>
+          <i class="fa fa-eye-slash" id="eye"></i>
         </div>
 
         <button type="submit" class="btn" name="btn">Login</button>
